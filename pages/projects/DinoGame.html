@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Dino Game</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../assets/css/template.css">
+    <link rel="stylesheet" href="../../assets/css/custom.css">
+
+    <!-- Load fonts style after rendering the layout styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+    <link rel="stylesheet" href="../../assets/css/fontawesome.min.css">
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../..//assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../..//assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../..//assets/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../..//assets/img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="../..//assets/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="../..//assets/img/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#603cba">
+    <meta name="msapplication-config" content="../..//assets/img/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand bg-dark shadow">
+        <div class="container d-flex justify-content-between align-items-center" style="height:80px; padding-bottom: 0px;">
+            <button class="backBtn btn btn-outline-light d-flex align-items-center" onclick="window.history.back()">
+                <i class="fas fa-arrow-left mr-2" style="padding-right: 12px;"></i> Back
+            </button>
+    
+            <div class="align-self-center collapse navbar-collapse justify-content-lg-between" id="templatemo_main_nav">
+                <div>
+                    <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="../../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="../../about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="../../projects.html">Projects</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+<div class="container height d-flex justify-content-center align-items-center">
+    <div class="container-fluid text-left py-5 mt-5" style=" background-color: #ffffff;">
+        <div class="row">
+            <h3 class="pl-4 title">Dino Game</h3><br>
+            
+            <!-- Image Column -->
+            <div class="col-sm-5" style="margin-left:-5px">
+                <img style="height:405px;" src="../../assets/img/ProjectPage/DinoGame/technologies.png" alt="Computer Skills card">
+            </div>
+            
+            <!-- Text Column -->
+            <div class="col-sm-7 pt-5">
+                <p style="margin-left: 80px;">             
+                    I recreated the popular Chrome dinosaur game with modern visuals using HTML, CSS, and JavaScript. <br> <br>
+                    JavaScript handles the creation of obstacles at set intervals, and I also built a separate script to control the dinosaur's jump when the spacebar is pressed. 
+                    When the dino collides with an obstacle, the game enters a "game over" state, and a new background is displayed. <br> <br> Additionally, I used CSS for the dino's animations, employing keyframes and sprites to animate its running, jumping, and dying actions.
+                </p>
+            </div>
+
+        </div>
+
+        <div class="row" style="padding-top: 30px;">    
+            <!-- Text Column -->
+            <div class="col-sm-6 pt-7 " style="margin-right: 20px; margin-top: 30px;">
+                <p class="pt-7">
+                    <h3 class="subtitle">
+                        Code
+                      </h3>
+                    The code initializes the game by displaying a start message and making the dino idle. When the game begins, the dino starts running, and players can make it jump by pressing the spacebar, which also increases the score with each jump. <br> <br>The game continuously checks for collisions between the dino and obstacles. If a collision is detected, the game stops, and a "game over" state is triggered, where the dino’s death animation plays, and the final score is shown. <br> <br>A refresh function allows the game to restart. Animations are controlled by adding and removing CSS classes.
+                </p>
+                <div class="row">
+                    <div class="col-4" style="margin-left: -13px;">
+                        <button class="btn btnCustom">
+                            <a class="projectBtn"href="https://dinogame-jvv.netlify.app/">Play now</a></button>
+                    </div>
+                </div>
+            </div>
+            <!-- Image Column -->
+            <div class="col-sm-5 img-container pt-7" style="height: 300px; overflow-y: scroll; margin-top: 90px;">
+                <img src="../../assets/img/ProjectPage/DinoGame/code.png" style="width:100%; height:auto;" alt="Source code">
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+
+<!--Footer -->
+<footer class="bg-dark" id="template_footer">
+    <div class="w-100 bg-black">
+        <div class="container">
+            <div class="row pt-2">
+                <div class="col-10">
+                    <p class="text-left text-light" style="margin-top:12px;">
+                        &copy; Portfolio Jana Vande Velde
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+</footer>
+
+<script src="../../assets/js/jquery-1.11.0.min.js"></script>
+<script src="../../assets/js/jquery-migrate-1.2.1.min.js"></script>
+<script src="../../assets/js/bootstrap.bundle.min.js"></script>
+<script src="../../assets/js/template.js"></script>
+
+</body>
+</html>

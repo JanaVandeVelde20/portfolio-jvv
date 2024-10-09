@@ -1,0 +1,84 @@
+/* Typography */
+body, ul, li, p, a, label, input, div {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px !important;
+  font-weight: 300 !important;
+}
+.h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 48px !important;
+  font-weight: 200 !important;
+}
+.h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px !important;
+  font-weight: 300;
+}
+.h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px !important;
+}
+
+/* General */
+.logo { font-weight: 500 !important;}
+.text-success { color: #59ab6e !important;}
+.text-light { color: #cfd6e1 !important;}
+.bg-dark { background-color: #212934 !important;}
+.bg-light { background-color: #e9eef5 !important;}
+.bg-black { background-color: #1d242d !important;}
+
+/* Nav */
+#template_nav_top { min-height: 40px;}
+#template_nav_top * { font-size: .9em !important;}
+#template_main_nav a { color: #212934;}
+#template_main_nav a:hover { color: #7e56ae;}
+#template_main_nav .navbar .nav-icon { margin-right: 20px;}
+
+/* Hero Carousel */
+#template-carousel { background: #efefef !important;}
+
+/* Carousel Hero */
+#template-carousel .carousel-indicators li {
+  margin-top: -20px;
+  background-color: #573571;
+}
+#template-carousel .carousel-control-next i,
+#template-carousel .carousel-control-prev i {
+  color: #ab8ecf !important;
+  font-size: 2.8em !important;
+}
+/* Carousel Brand */
+.template-carousel .h1 {
+  font-size: .5em !important;
+  color: #000 !important;
+}
+
+#template_footer ul.footer-icons li:hover {
+  background-color: #cfd6e1;
+  transition: .5s;
+}
+#template_footer ul.footer-icons li:hover i {
+  color: #212934;
+  transition: .5s;
+}
+#template_footer .border-light {
+  border-color: #2d343f !important
+}
+
+@media (min-width: 576px) {
+  .template-carousel .h1 { font-size: 1em !important;}
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  #template_main_nav .navbar-nav {max-width: 450px;}
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+  #template_main_nav .navbar-nav {max-width: 550px;}
+  #template-carousel .carousel-item {min-height: 27rem !important;}
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}

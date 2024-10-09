@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/template.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+    <!-- Load fonts style after rendering the layout styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/assets/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/assets/img/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#603cba">
+    <meta name="msapplication-config" content="/assets/img/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand bg-dark shadow">
+        <div class="container d-flex justify-content-between align-items-center" style="height:80px; padding-bottom: 0px;">
+            <div class="align-self-center collapse navbar-collapse justify-content-lg-between" id="template_main_nav">
+                <div>
+                    <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
+                        <li class="nav-item">
+                            <a class=" active nav-link text-light" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="projects.html">Projects</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="jumbotron" style="margin-top: 115px; background-color: #ffffff">
+            <div class="container text-center" style="height:150px;">
+                <h1>My Portfolio</h1>
+                <p style="font-size: 18px;">
+                    Hello! I'm Jana Vande Velde, and I'm thrilled to welcome you to my portfolio. Here, you'll find a collection of projects I've been passionately working on during my journey as an applied computer science student at Thomas More.
+                </p>
+            </div>
+        </div>
+<!-- Carousel -->
+<div id="template-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="7500">
+
+    <!-- Carousel Indicators -->
+    <ol class="carousel-indicators">
+        <li data-bs-target="#template-carousel" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#template-carousel" data-bs-slide-to="1"></li>
+        <li data-bs-target="#template-carousel" data-bs-slide-to="2"></li>
+        <li data-bs-target="#template-carousel" data-bs-slide-to="3"></li>
+        <li data-bs-target="#template-carousel" data-bs-slide-to="4"></li>
+    </ol>
+
+    <div class="carousel-inner mt-7">
+        <div class="carousel-item active">
+            <div class="container">
+                <div class="row">
+                    <div class="mx-auto col-md-8 col-lg-5 order-lg-last">
+                        <img class="mobileMockup" src="assets/img/Mockups/MJ_entertainment/Homepage.png" alt="MJ-entertainment website">
+                    </div>
+                    <div class="col-lg-7 mb-0 d-flex align-items-center">
+                        <div class="text-align-left align-self-center">
+                            <a href="MJ-entertainment.html">
+                                <h1 class="h1 carouselTitle purple"><b>Website MJ entertainment</b></h1>
+                            </a>
+                            <p>
+                                I created a website for MJ Entertainment, offering kids' party entertainment like balloon twisting, circus shows, and magic tricks. The development process involved the use of Bootstrap, HTML, CSS, and JavaScript, enhancing the site's visual appeal and functionality.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+            <div class="container">
+                <div class="row">
+                    <div class="mx-auto col-md-8 col-lg-5 order-lg-last">
+                        <img class=" mobileMockup" src="./assets/img/Mockups/Ready2Cook/MobileMockups.PNG" alt="React native Ready2Cook homepage">
+                    </div>
+                    <div class="col-lg-7 mb-0 d-flex align-items-center">
+                        <div class="text-align-left align-self-center">
+                            <a href="DataVisualisation_project.html">
+                                <h1 class="h1 carouselTitle purple"><b>React Native Ready2Cook</b></h1>
+                            </a>
+                            <p>
+                                Ready2Cook is an app that helps users find cooking inspiration based on the ingredients they already have at home. I developed this app using React Native and integrated an API to fetch recipes.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+            <div class="container">
+                <div class="row">
+                    <div class="mx-auto col-md-8 col-lg-7 order-lg-last d-flex justify-content-between">
+                        <img class="mobileMockup" src="assets/img/Mockups/TravelStars/HomeScreen_mobile.png" alt="TravelStars Mobile mockup">
+                        <img class="mobileMockup" src="assets/img/Mockups/TravelStars/AddBlog_desktop.png" alt="TravelStars Desktop mockup">
+                    </div>                    
+                    <div class="col-lg-5 mb-0 d-flex align-items-center">
+                        <div class="text-align-left align-self-center">
+                            <a href="NewProject1.html">
+                                <h1 class="h1 carouselTitle purple"><b>PWA TravelStars</b></h1>
+                            </a>
+                            <p>TravelStars is an app where users can post and share their travel blogs. During this project, I worked with new technologies such as caching, IndexedDB for local storage, and API integration.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+            <div class="container">
+                <div class="row">
+                    <div class="mx-auto col-md-8 col-lg-5 order-lg-last">
+                        <img class="mobileMockup" src="assets/img/Mockups/TM_competeMore/HeroSection.png" alt="Herosection compete more">
+                    </div>
+                    <div class="col-lg-7 mb-0 d-flex align-items-center">
+                        <div class="text-align-left align-self-center">
+                            <a href="AnotherProject.html">
+                                <h1 class="h1 carouselTitle purple"><b>PHP CompeteMore</b></h1>
+                            </a>
+                            <p>For our PHP project, we developed a competition platform for Thomas More, where students can join a variety of challenges like photography contests, hackathons, and coding competitions. Through this project, I gained experience with Laravel and I also learned more about implementing CRUD functionalities.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+            <div class="container">
+                <div class="row">
+                    <div class="mx-auto col-md-8 col-lg-5 order-lg-last">
+                        <img class=" mobileMockup" src="./assets/img/Mockups/DinoGame/homeScreen.png" alt="DinoGame homepage">
+                    </div>
+                    <div class="col-lg-7 mb-0 d-flex align-items-center">
+                        <div class="text-align-left align-self-center">
+                            <a href="DataVisualisation_project.html">
+                                <h1 class="h1 carouselTitle purple"><b>Dino Game</b></h1>
+                            </a>
+                            <p>
+                                I recreated the popular Chrome Dino game with modern graphics, keeping the development simple using only plain HTML, CSS, and JavaScript. Through this project, I learned more about CSS keyframes and animations, and also found some great sources for free game sprites.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Carousel Controls -->
+    <a class="carousel-control-prev text-decoration-none w-auto ps-3" href="#template-carousel" role="button" data-bs-slide="prev">
+        <i class="fas fa-chevron-left"></i>
+    </a>
+    <a class="carousel-control-next text-decoration-none w-auto pe-3" href="#template-carousel" role="button" data-bs-slide="next">
+        <i class="fas fa-chevron-right"></i>
+    </a>
+</div>
+
+    
+    <!--Footer -->
+    <footer class="bg-dark" id="template_footer">
+        <div class="w-100 bg-black">
+            <div class="container">
+                <div class="row pt-2">
+                    <div class="col-10">
+                        <p class="text-left text-light" style="margin-top:12px;">
+                            &copy; Portfolio Jana Vande Velde
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Start Script -->
+    <script src="assets/js/jquery-1.11.0.min.js"></script>
+    <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/template.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <!-- End Script -->
+</body>
+
+</html>

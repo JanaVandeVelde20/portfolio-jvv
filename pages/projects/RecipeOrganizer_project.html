@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Recipe Organizer</title>
+    <link rel="stylesheet" href="../../assets/css/custom.css">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../assets/css/template.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Load fonts style after rendering the layout styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+    <link rel="stylesheet" href="../../assets/css/fontawesome.min.css">
+</head>
+<body>
+<nav class="navbar navbar-expand bg-dark shadow">
+    <div class="container d-flex justify-content-between align-items-center" style="height:80px; padding-bottom: 0;">
+        <div class="align-self-center collapse navbar-collapse justify-content-lg-between" id="template_main_nav">
+            <div>
+                <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
+                    <li style="position: fixed; left: 45px;" class="nav-item">
+                        <a class="nav-link text-light" href="javascript:history.go(-1);">
+                            <i class="fas fa-arrow-left mr-2"></i> Back
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="projects.html">Projects</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="container-fluid section">
+    <div class="row ">
+        <div class="col-md-6">
+            <h3>
+                Main purpose application
+            </h3>
+            <p>
+                For DevOps & Security we got to choose our own project. I choose to design a recipe organizer using C# and Windows Forms.
+                <br> <br>
+                In this recipe organizer, there are two kinds of recipes: standard and advanced. You can view, edit, create, or delete recipes of each type.
+                <br> <br>
+                If you're curious about how the finished application looks, you can check it out in this video.
+                <a class="fw-bold purple" href="https://youtu.be/BWxCNU4hn8c">Video Recipe Organizer App</a>
+            </p>
+        </div>
+        <div class="col-md-6">
+            <img src="../../assets/img/RecipeOrganizer_AddRecipe.png" alt="Add Recipe"/>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <img src="../../assets/img/RecipeOrganizer_ShowRecipes.png" alt="Show Recipes"/>
+        </div>
+        <div class="col-md-6">
+            <h3>
+                Technical aspects
+            </h3>
+            <p>
+            The application utilizes SQLite for local recipe storage, and I implemented the CRUD (Create, Read,
+            Update, Delete) principles to manage recipe data. To facilitate database interactions, I employed the
+            Object-Relational Mapping (ORM) tool Dapper. Additionally, I incorporated inheritance in the design,
+            introducing a parent class named "Recipe" and a child class named "AdvancedRecipe." This
+            inheritance structure allows for a hierarchical organization of recipe data within the application.
+            </p>
+            <br>
+            <h6>Reflection:</h6>
+            Through self-study, I gained valuable insights, in how to utilize databases with C# and Windows Forms. This skill is particularly important since the majority of modern applications rely on databases for their functionality.
+        </div>
+    </div>
+</div>
+<footer class="bg-dark" id="template_footer" style="position: relative; bottom:0; width:100%">
+    <div class="w-100 bg-black">
+        <div class="container">
+            <div class="row pt-2">
+                <div class="col-10">
+                    <p class="text-left text-light" style="margin-top:12px;">
+                        &copy; Portfolio Jana Vande Velde
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</footer>
+
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="../../assets/js/jquery-1.11.0.min.js"></script>
+<script src="../../assets/js/jquery-migrate-1.2.1.min.js"></script>
+<script src="../../assets/js/bootstrap.bundle.min.js"></script>
+<script src="../../assets/js/template.js"></script>
+<script src="../../assets/js/custom.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
